@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68bf60ca-9f21-4408-a74d-3b701799f89a" name="Changes" comment="Final - added final realization">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="68bf60ca-9f21-4408-a74d-3b701799f89a" name="Changes" comment="Final - added Additional solution with recursion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679661502772</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Final - added Additional solution with recursion">
+      <created>1679662584197</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679662584197</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +136,7 @@
     <MESSAGE value="Final - added printArray method" />
     <MESSAGE value="Final - added empty method and finished main method" />
     <MESSAGE value="Final - added final realization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final - added final realization" />
+    <MESSAGE value="Final - added Additional solution with recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final - added Additional solution with recursion" />
   </component>
 </project>
