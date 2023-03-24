@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68bf60ca-9f21-4408-a74d-3b701799f89a" name="Changes" comment="Final - added test arrays">
+    <list default="true" id="68bf60ca-9f21-4408-a74d-3b701799f89a" name="Changes" comment="Final - added final realization">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="GeekBrainsBasic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +89,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679659849061</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final - added printArray method">
+      <created>1679660345547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679660345547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Final - added empty method and finished main method">
+      <created>1679661297646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679661297646</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final - added final realization">
+      <created>1679661502772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679661502772</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +129,9 @@
     <MESSAGE value="Final - added empty README.md" />
     <MESSAGE value="Final - added isStringShortEnough method" />
     <MESSAGE value="Final - added test arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final - added test arrays" />
+    <MESSAGE value="Final - added printArray method" />
+    <MESSAGE value="Final - added empty method and finished main method" />
+    <MESSAGE value="Final - added final realization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final - added final realization" />
   </component>
 </project>

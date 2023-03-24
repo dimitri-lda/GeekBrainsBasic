@@ -10,6 +10,16 @@ public class Solution {
         printArray(fixedArray1);
         printArray(fixedArray2);
         printArray(fixedArray3);
+        System.out.println();
+
+        // Additional solution with recursion and without getArraySize method
+        int startFixedArraySize = 0;
+        fixedArray1 = getArrayOfCorrectLengthElementsRecursion(array1, startFixedArraySize, requiredLength);
+        fixedArray2 = getArrayOfCorrectLengthElementsRecursion(array2, startFixedArraySize, requiredLength);
+        fixedArray3 = getArrayOfCorrectLengthElementsRecursion(array3, startFixedArraySize, requiredLength);
+        printArray(fixedArray1);
+        printArray(fixedArray2);
+        printArray(fixedArray3);
     }
 
     private static String[] getArrayOfCorrectLengthElements(String[] array, int requiredLength) {
@@ -44,5 +54,29 @@ public class Solution {
             System.out.print(str + ' ');
         }
         System.out.println(']');
+    }
+
+    private static String[] getArrayOfCorrectLengthElementsRecursion(
+        String[] array,
+        int fixedArraySize,
+        int requiredLength
+    ) {
+        String[] fixedArray = new String[fixedArraySize];
+        int index = 0;
+        for (String str : array) {
+            if (isStringShortEnough(str, requiredLength)) {
+                if (index + 1 > fixedArraySize) {
+                    fixedArray = getArrayOfCorrectLengthElementsRecursion(
+                            array,
+                            fixedArraySize + 1,
+                            requiredLength
+                    );
+                } else {
+                    fixedArray[index] = str;
+                    index++;
+                }
+            }
+        }
+        return fixedArray;
     }
 }
