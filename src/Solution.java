@@ -13,8 +13,25 @@ public class Solution {
     }
 
     private static String[] getArrayOfCorrectLengthElements(String[] array, int requiredLength) {
-        String[] fixedArray = new String[]{};
+        int fixedArraySize = getArraySizeOfCorrectLengthElements(array, requiredLength);
+        String[] fixedArray = new String[fixedArraySize];
+        int index = 0;
+        for (String str : array) {
+            if (isStringShortEnough(str, requiredLength)) {
+                fixedArray[index] = str;
+                index++;
+            }
+        }
         return fixedArray;
+    }
+
+    private static int getArraySizeOfCorrectLengthElements(String[] array,  int requiredLength) {
+        int index = 0;
+        for (String str : array) {
+            if (isStringShortEnough(str, requiredLength))
+                index++;
+        }
+        return index;
     }
 
     private static boolean isStringShortEnough(String str, int requiredLength) {
@@ -22,9 +39,10 @@ public class Solution {
     }
 
     private static void printArray(String[] array) {
+        System.out.print('[');
         for (String str : array) {
             System.out.print(str + ' ');
         }
-        System.out.println();
+        System.out.println(']');
     }
 }
