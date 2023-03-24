@@ -8,4 +8,11 @@ public class Solution {
     private static boolean isStringShortEnough(String str, int requiredLength) {
         return str.length() <= requiredLength;
     }
+
+    private static void printArray(String[] array) {
+        for (String str : array) {
+            System.out.print(str + ' ');
+        }
+        System.out.println();
+    }
 }

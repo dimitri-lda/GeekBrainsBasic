@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68bf60ca-9f21-4408-a74d-3b701799f89a" name="Changes" comment="Final - added isStringShortEnough method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="68bf60ca-9f21-4408-a74d-3b701799f89a" name="Changes" comment="Final - added test arrays">
       <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679659243157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final - added test arrays">
+      <created>1679659849061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679659849061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +92,7 @@
     <MESSAGE value="Final - first commit" />
     <MESSAGE value="Final - added empty README.md" />
     <MESSAGE value="Final - added isStringShortEnough method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final - added isStringShortEnough method" />
+    <MESSAGE value="Final - added test arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final - added test arrays" />
   </component>
 </project>
